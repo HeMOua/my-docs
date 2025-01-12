@@ -1,0 +1,46 @@
+// place your custom styles here
+
+// fontawesome svg 图标特殊处理
+svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
+  vertical-align: 0.18rem;
+}
+
+// 导航页特殊样式
+@media (min-width: 1440px) {
+  .nav-container {
+    // 标题
+    .vp-page-title {
+      max-width: 1100px;
+    }
+    // 文章导航信息
+    .vp-toc-placeholder {
+      max-width: 1100px;
+      #toc {
+        inset-inline-start: calc(-8rem);
+      }
+    }
+    // 页面内容
+    &.theme-container.no-sidebar.has-toc .vp-page {
+      padding-inline-end: inherit;
+    }
+    [vp-content]:not(.custom) {
+      max-width: 1100px;
+    }
+  }
+}
+
+.nav-container {
+  .vp-card {
+    width: calc(350px - 2rem);
+    height: 4rem;
+    .vp-card-desc {
+      width: 235px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  .vp-card-logo {
+    border-radius: inherit;
+  }
+}
