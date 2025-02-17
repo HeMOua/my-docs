@@ -2,31 +2,41 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   {
-    text: "导航",
-    icon: "compass",
-    link: "/nav/",
-  },
-  {
     text: "知识体系",
     icon: "book",
-    link: "/knowledge/",
+    link: "/knowledge/"
   },
   {
     text: "专题",
     icon: "pencil",
     link: "/topic/",
+    children: [
+      { text: "Java", icon: "fa-brands fa-java", link: "/topic/java/" },
+      { text: "前端", icon: "fa-brands fa-html5", link: "/topic/front-end/" },
+      { text: "Python", icon: "fa-brands fa-python", link: "/topic/python/" },
+      {
+        text: "算法",
+        icon: "fa-solid fa-square-binary",
+        link: "/topic/algorithm/"
+      },
+      {
+        text: "大模型",
+        icon: "fa-solid fa-hexagon-nodes",
+        link: "/topic/llm/"
+      }
+    ]
   },
   {
     text: "小工具",
     icon: "wrench",
-    link: "/tools/",
+    link: "/tools/"
   },
   {
     text: "网站相关",
     icon: "circle-info",
     children: [
-      { text: "关于", icon: "address-card", link: "/about/" },
-      { text: "更新历史", icon: "history", link: "/timeline/" },
+      { text: "关于作者", icon: "user", link: "/about/author/" },
+      { text: "更新历史", icon: "history", link: "/timeline/" }
     ]
-  },
+  }
 ]);

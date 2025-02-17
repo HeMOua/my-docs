@@ -1,4 +1,5 @@
 ---
-title: 关于
+icon: circle-info
+title: 网站相关
 ---
 

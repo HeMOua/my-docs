@@ -1,7 +1,11 @@
 ---
 title: Java
+icon: fa-brands fa-java
+index: false
+dir:
+  order: 1
 ---
 
 
 
-阿发送到发
+<Catalog />

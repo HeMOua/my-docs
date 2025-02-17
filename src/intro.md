@@ -1,8 +1,6 @@
 ---
-icon: circle-info
-cover: /assets/images/cover3.jpg
+icon: user
 ---
 
-# 介绍页
+# 个人介绍
 
-刚工作的小白

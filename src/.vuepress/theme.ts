@@ -3,12 +3,14 @@ import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
+const website = "https://jishuzhaix.cn";
+
 export default hopeTheme({
-  hostname: "https://jishuzhaix.cn",
+  hostname: website,
 
   author: {
     name: "贺墨于",
-    url: "https://jishuzhaix.cn",
+    url: website
   },
 
   logo: "/logo.png",
@@ -24,7 +26,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "技数斋 | <a href='https://jishuzhai.cn'>关于网站</a>",
+  footer: `技数斋 | <a href='/about/website/'>关于网站</a>`,
   displayFooter: true,
 
   // 博客相关
@@ -37,20 +39,20 @@ export default hopeTheme({
       cnblogs: {
         icon: "https://www.cnblogs.com/favicon.ico",
         link: "https://www.cnblogs.com/hemou"
-      },
-    },
+      }
+    }
   },
 
   // 加密配置
   encrypt: {
     config: {
       // "/demo/encrypt.html": ["1234"],
-    },
+    }
   },
 
   // 多语言配置
   metaLocales: {
-    editLink: "编辑此页",
+    editLink: "编辑此页"
   },
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
@@ -79,16 +81,16 @@ export default hopeTheme({
             return {
               tag: "Badge",
               attrs: { type: "tip" },
-              content: "Recommended",
+              content: "Recommended"
             };
-        },
-      },
+        }
+      }
     ],
     sub: true,
     sup: true,
     tabs: true,
     tasklist: true,
-    vPre: true,
+    vPre: true
 
     // 取消注释它们如果你需要 TeX 支持
     // markdownMath: {
@@ -140,7 +142,7 @@ export default hopeTheme({
     // },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge", "VPCard", "PDF"]
     },
 
     icon: {
@@ -152,11 +154,10 @@ export default hopeTheme({
         // "/assets/fontawesome/css/fontawesome.min.css",
         "/assets/fontawesome/js/regular.min.js",
         // "/assets/fontawesome/css/regular.min.css",
-        "/assets/fontawesome/js/brands.min.js",
+        "/assets/fontawesome/js/brands.min.js"
         // "/assets/fontawesome/css/brands.min.css",
       ]
-    },
-    
+    }
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
@@ -214,5 +215,5 @@ export default hopeTheme({
     //     ],
     //   },
     // },
-  },
+  }
 });

@@ -7,9 +7,9 @@ export default defineUserConfig({
 
   lang: "zh-CN",
   title: "技数斋",
-  description: "vuepress-theme-hope 的博客演示",
+  description: "代码为骨 · 数据为翼",
 
-  theme,
+  theme
 
   // 和 PWA 一起启用
   // shouldPrefetch: false,

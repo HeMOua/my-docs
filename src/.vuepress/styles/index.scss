@@ -1,8 +1,10 @@
 // place your custom styles here
 
 // fontawesome svg 图标特殊处理
-svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
-  vertical-align: 0.18rem;
+.theme-container .vp-sidebar {
+  svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
+    vertical-align: 0.18rem;
+  }
 }
 
 // 导航页特殊样式
