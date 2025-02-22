@@ -1,5 +1,3 @@
-[toc]
-
 # MyBatis笔记
 
 # 一、Mybatis入门

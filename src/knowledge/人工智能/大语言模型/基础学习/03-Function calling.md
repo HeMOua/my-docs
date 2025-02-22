@@ -2,7 +2,7 @@
 
 赋予大模型访问外部世界的能力，拥有此机制的大模型可以自行决策是否调用预定义的外部函数，让模型具备执行特征任务的能力，从而使得输出结果更加精准
 
-<img src="img/image-20240627111108604.png" alt="image-20240627111108604" style="zoom:50%;" />
+![image-20240627111108604](img/image-20240627111108604.png)
 
 Function Calling 完整的官方接口文档：https://platform.openai.com/docs/guides/function-calling
 

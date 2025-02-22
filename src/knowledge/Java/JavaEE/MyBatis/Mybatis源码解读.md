@@ -388,7 +388,7 @@ public static Object wrap(Object target, Interceptor interceptor) {
 
 但是执行的时候就要反过来了，执行的时候是按照：`插件3`，`插件2`和`插件1`的顺序进行执行。
 
-<img src="img/image-20210903145021790.png" alt="image-20210903145021790" style="zoom:67%;" />
+![image-20210903145021790](img/image-20210903145021790.png)
 
 当 Executor 的某个方法被调用的时候，插件逻辑会先行执行。执行顺序由外而内，比如上图的执行顺序为 `plugin3 → plugin2 → Plugin1 → Executor`。
 

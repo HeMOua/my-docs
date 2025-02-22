@@ -53,7 +53,7 @@ Shiro 可以非常容易的开发出足够好的应用，其不仅可以用在 J
 
 接下来我们来从 Shiro 内部来看下 Shiro 的架构，如下图所示：
 
-<img src="img/3.png" alt="img" style="zoom:150%;" />
+![img](img/3.png)
 
 **Subject**：主体，可以看到主体可以是任何可以与应用交互的 “用户”；
 

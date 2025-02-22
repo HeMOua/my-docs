@@ -19,6 +19,8 @@ export default hopeTheme({
 
   docsDir: "src",
 
+  hotReload: true,
+
   // 导航栏
   navbar,
 
@@ -90,15 +92,12 @@ export default hopeTheme({
     sup: true,
     tabs: true,
     tasklist: true,
-    vPre: true
+    vPre: true,
 
     // 取消注释它们如果你需要 TeX 支持
-    // markdownMath: {
-    //   // 启用前安装 katex
-    //   type: "katex",
-    //   // 或者安装 mathjax-full
-    //   type: "mathjax",
-    // },
+    math: {
+      type: "mathjax"
+    },
 
     // 如果你需要幻灯片，安装 @vuepress/plugin-revealjs 并取消下方注释
     // revealjs: {
@@ -117,7 +116,7 @@ export default hopeTheme({
     // flowchart: true,
 
     // 在启用之前安装 mermaid
-    // mermaid: true,
+    mermaid: true
 
     // playground: {
     //   presets: ["ts", "vue"],

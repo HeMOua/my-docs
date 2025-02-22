@@ -1,5 +1,3 @@
-[toc]
-
 # Spring 笔记
 
 # 一、概述
@@ -49,7 +47,7 @@ Spring 框架的 AOP 模块提供了面向方面的程序设计实现，可以�
 
 ​	它们的完整依赖关系如下图所示：
 
-<img src="img/image-20200208164605046.png" alt="image-20200208164605046" style="zoom:67%;" />
+![image-20200208164605046](img/image-20200208164605046.png)
 
 如果是maven项目的话可以只引入`spring-context`，maven会自动引入其他的依赖
 

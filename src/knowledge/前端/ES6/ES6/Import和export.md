@@ -116,12 +116,10 @@ export {
 
 他会报下面的错误，并且连编译器也会认为这个写法不合法
 
-<table>
-    <tr>
-        <td><img src="img/1491349-20210206140450181-399875326.png"></td>
-        <td><img src="img/1491349-20210206140453374-1853935801.png"></td>
-    </tr>
-</table>
+![](img/1491349-20210206140450181-399875326.png)
+
+![](img/1491349-20210206140453374-1853935801.png)
+
 
 ### import
 
@@ -274,7 +272,7 @@ console.log(val.default(4, 10))
 | Edge    | 不支持          | 16+                                                          |
 
 + 原生浏览器不支持 require/exports，可使用支持 CommonJS 模块规范的 Browsersify、webpack 等打包工具，它们会将 require/exports 转换成能在浏览器使用的代码。
-+ import/export 在浏览器中无法直接使用，我们需要在引入模块的 <script> 元素上添加type="module属性。
++ import/export 在浏览器中无法直接使用，我们需要在引入模块的 \<script> 元素上添加type="module属性。
 
 3. require/exports 是运行时动态加载，import/export 是静态编译
 
