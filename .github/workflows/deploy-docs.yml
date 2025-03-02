@@ -37,13 +37,13 @@ jobs:
           corepack enable
           pnpm install --frozen-lockfile
 
-      - name: 动态修改 base 配置
-        run: |
-          sed -i 's|base: "/"|base: "/my-docs"|' src/.vuepress/config.ts
+      # - name: 动态修改 base 配置
+      #   run: |
+      #     sed -i 's|base: "/"|base: "/my-docs"|' src/.vuepress/config.ts
           
-      - name: 修改 assets 路径
-        run: |
-          sed -i 's|/assets|/my-docs/assets|g' src/.vuepress/theme.ts
+      # - name: 修改 assets 路径
+      #   run: |
+      #     sed -i 's|/assets|/my-docs/assets|g' src/.vuepress/theme.ts
 
       - name: 构建文档
         env:
@@ -58,3 +58,21 @@ jobs:
           # 部署文档
           branch: gh-pages
           folder: src/.vuepress/dist
+
+      - name: Deploy to Server
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.SSH_HOST }}       # 服务器IP或域名
+          username: ${{ secrets.SSH_USERNAME }}  # SSH用户名
+          key: ${{ secrets.SSH_PRIVATE_KEY }}    # SSH私钥（需配置到Secrets）
+          script: |
+            # 进入Nginx配置或源码目录
+            cd /var/www/my-docs
+
+            # 拉取最新代码（如果直接使用GitHub的代码，可跳过）
+            git pull origin gh-pages
+
+            # 平滑重载Nginx
+            sudo nginx -s reload
+
+            echo "Nginx reloaded successfully!"

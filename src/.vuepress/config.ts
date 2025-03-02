@@ -7,7 +7,7 @@ export default defineUserConfig({
 
   lang: "zh-CN",
   title: "技数斋",
-  description: "代码为骨 · 数据为翼",
+  description: "前后端 + 人工智能",
 
   theme
 
