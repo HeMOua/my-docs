@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://jishuzhaix.cn/my-docs/sitemap.xml
+Sitemap: https://jishuzhaix.cn/sitemap.xml
