@@ -17,7 +17,7 @@ actions:
     link: ./tools/
 
 copyright: false
-footer: 技数斋 | Copyright © 2025-present 贺墨于
+footer: 技数斋 <a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2025076226号</a> | Copyright © 2025-present 贺墨于
 ---
 
 ## 📚 知识体系架构
