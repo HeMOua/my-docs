@@ -28,7 +28,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: `技数斋 <a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2025076226号</a> | <a href='/about/website/'>关于网站</a>`,
+  footer: `技数斋 <a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2025076226号-1</a> | <a href='/about/website/'>关于网站</a>`,
   displayFooter: true,
 
   // 博客相关

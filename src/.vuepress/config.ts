@@ -12,8 +12,6 @@ export default defineUserConfig({
   head: [
     ["meta", { name: "robots", content: "all" }],
     ["meta", { name: "author", content: "贺墨于" }],
-    ["meta", { name: "author", content: "HeMOu" }],
-    ["meta", { name: "author", content: "HeMOua" }],
     [
       "meta",
       {
