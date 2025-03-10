@@ -1,6 +1,6 @@
 ---
 icon: fa-solid fa-hexagon-nodes
-title: 大模型
+title: 人工智能
 index: false
 dir:
     order: 5

@@ -15,14 +15,9 @@ export default navbar([
       { text: "前端", icon: "fa-brands fa-html5", link: "/topic/front-end/" },
       { text: "Python", icon: "fa-brands fa-python", link: "/topic/python/" },
       {
-        text: "算法",
-        icon: "fa-solid fa-square-binary",
-        link: "/topic/algorithm/"
-      },
-      {
-        text: "大模型",
+        text: "人工智能",
         icon: "fa-solid fa-hexagon-nodes",
-        link: "/topic/llm/"
+        link: "/topic/ai/"
       }
     ]
   },
