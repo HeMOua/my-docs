@@ -54,4 +54,3 @@ Head 模块基于 Backbone 和 Neck 提取的特征，完成目标定位（Bound
 
 ![RetinaNet 网络结构](img/image-20250309170351373.png)
 
-+ 

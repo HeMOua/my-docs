@@ -1,4 +1,5 @@
 ---
+title: YOLO
 index: false
 category: 人工智能
 tag:
