@@ -1,8 +1,10 @@
 ---
+title: YOLOv1
 category: 人工智能
 tag:
   - 目标检测
   - yolo
+index: false
 ---
 
 # YOLOv1 简介
