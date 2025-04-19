@@ -34,7 +34,16 @@ export default defineUserConfig({
     ]
   ],
 
-  theme
+  theme,
+
+  markdown: {
+    anchor: {
+      level: [1, 2, 3, 4, 5],
+    },
+    headers: {
+      level: [2, 3, 4, 5],
+    }
+  }
 
   // 和 PWA 一起启用
   // shouldPrefetch: false,

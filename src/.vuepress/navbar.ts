@@ -22,6 +22,11 @@ export default navbar([
     ]
   },
   {
+    text: "项目",
+    icon: "wrench",
+    link: "/project/"
+  },
+  {
     text: "小工具",
     icon: "wrench",
     link: "/tools/"

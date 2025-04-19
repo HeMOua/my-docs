@@ -2,6 +2,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
+import { headersPlugin } from "vuepress/markdown";
 
 const website = "https://jishuzhaix.cn";
 
@@ -30,6 +31,8 @@ export default hopeTheme({
   // 页脚
   footer: `技数斋 <a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2025076226号-1</a> | <a href='/about/website/'>关于网站</a>`,
   displayFooter: true,
+
+  headerDepth: 4,
 
   // 博客相关
   blog: {
